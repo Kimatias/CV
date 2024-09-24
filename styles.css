@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    font-family: "Mulish", sans-serif;
+    font-size: 16px;
+}
+
+header {
+    background-image: url('./img/fondo.jpg');
+    background-size: cover;
+    height: 150px;
+    width: 100%;
+    position: relative;
+}
+
+.foto-perfil {
+    background-image: url('./img/foto.jpg');
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: solid 2px white;
+    position: absolute;
+    top: 100px;
+    left: calc(50% - 45px);
+}
+
+.detalles {
+    margin-top: 60px;
+    text-align: center;
+}
+
+h1{ 
+    font-size: 1.6em;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 1.1em;
+    color: rgb(27, 42, 131);
+    font-weight: 800;
+    border-bottom: solid 2px rgb(27, 42, 131);
+}
+
+h3 {
+    font-size: 1.0em;
+    font-weight: 600;
+}
+
+.main {
+    position:relative;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+i {
+    display: inline;
+}
+
+.perfil {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 50%;
+    padding: 5%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.perfil a {
+    text-align: left;
+}
+
+.laboral {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 50%;
+    padding: 5%;
+    text-align: justify;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.lugar p {
+    text-align: left;
+}
+
